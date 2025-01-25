@@ -29,6 +29,7 @@
     font-family: "Roboto";
 }
 
+/* banner section */
 .banner-section-bg-container {
     background-color: #191a1d;
     height: 100vh;
@@ -63,13 +64,115 @@
     margin-right: 10px;
 }
 
-.custom-outline-button {
-    color: #d0b200;
+/* about me section */
+.about-me-section {
+    background-color: #1f2933;
+}
+
+.initial-text {
+    color: #cced00;
+    font-size: 24px;
+    font-family: "Roboto";
+}
+
+.about-me-image {
+    max-width: 100%; /* Ensures image doesn't exceed parent width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.about-me-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.about-me-section-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 22px;
+}
+
+/* skills setction */
+.skills-section {
+    background-color: #1f2933;
+}
+
+.skills-section-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.skills-card-image {
+    width: 50%;
+    height: 60%;
+    border-radius: 16px;
+}
+
+.skills-card-title {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+
+.skills-card {
+    background-color: #323f4b;
+    border-radius: 16px;
+}
+
+/* services section */
+.services-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 800;
+}
+.services-section {
+    background-color: #52606d;
+}
+.services-card {
+    background-color: #323f4b;
+    border-radius: 16px;
+}
+.services-card-image {
+    width: 60px;
+    height: 70px;
+}
+.services-card-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.services-card-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+/* work done section */
+.work-done-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+}
+.work-done-card {
     background-color: transparent;
-    width: 130px;
-    height: 45px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #d0b200;
-    border-radius: 8px;
+}
+.work-done-card-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+.work-done-card-description {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
 }
